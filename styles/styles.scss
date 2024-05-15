@@ -8,8 +8,8 @@
 
 /* Root variables */
 :root {
-  --color-primary: #191d2b;
-  --color-secondary: #2789d9;
+  --color-primary: #587e76;
+  --color-secondary: #c1502e;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -60,7 +60,7 @@ section {
 /* Generic section styles */
 .section {
   transform: translateY(-100%) scale(0);
-  transition: all 4s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-color: var(--color-primary);
 }
 
@@ -68,13 +68,13 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgba(161, 228, 38, 0.849);
+  background-color: #587e76;
 }
 
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: slateblue;
+  background-color: #587e76;
 }
 
 .sec3 {
@@ -96,7 +96,7 @@ section {
 // animations when you click on a button
 .active {
   display: block;
-  animation: scaleAnim 2s ease-in-out;
+  animation: scaleAnim 0.5s ease-in-out;
   @keyframes scaleAnim {
     0% {
       transform: translateY(-100%) scaleY(0);
